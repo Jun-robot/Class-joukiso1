@@ -1,0 +1,47 @@
+body {
+		/* font-family: Arial, sans-serif; */
+		font-family: "游ゴシック", "Yu Gothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, sans-serif;
+		line-height: 1.6;
+		margin: 0;
+		padding: 0;
+		background-color: #f4f4f4;
+}
+.container {
+		width: 80%;
+		margin: auto;
+		overflow: hidden;
+}
+header {
+		background: #7ac8ee;
+		color: #ffffff;
+		padding-top: 30px;
+		min-height: 70px;
+		border-bottom: #f0ff67 3px solid;
+}
+header a, header h1 {
+		text-align: center;
+		text-decoration: none;
+		text-transform: uppercase;
+}
+header h1 {
+		margin: 0;
+		font-size: 2em;
+}
+.main {
+		padding: 20px;
+		background: #fff;
+		margin-top: 10px;
+}
+.profile-pic {
+		float: left;
+		margin-right: 20px;
+		border-radius: 50%;
+		width: 150px;
+		height: 150px;
+		object-fit: cover;
+}
+.clearfix::after {
+		content: "";
+		display: table;
+		clear: both;
+}
